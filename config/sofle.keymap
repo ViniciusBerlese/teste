@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include <locale/keys_pt_abnt2.h>   /* <- cabeçalho dos aliases BR_* */
+#include "keys_pt_abnt2.h"
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/bt.h>
