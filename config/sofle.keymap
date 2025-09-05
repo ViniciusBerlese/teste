@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include <locale/keys_pt_br.h>   /* <- cabeçalho dos aliases BR_* */
+#include <locale/keys_pt_abnt2.h>   /* <- cabeçalho dos aliases BR_* */
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/bt.h>
@@ -43,10 +43,10 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp GRAVE  &kp N1  &kp N2    &kp N3    &kp N4     &kp N5                              &kp N6     &kp N7     &kp N8     &kp N9    &kp BR_GRAVE  &kp BR_TILDE
-&kp ESC    &kp Q   &kp W     &kp F     &kp P      &kp G                               &kp J      &kp L      &kp U      &kp Y     &kp BR_SEMICOLON      &kp BSPC
+&kp GRAVE  &kp N1  &kp N2    &kp N3    &kp N4     &kp N5                              &kp N6     &kp N7     &kp N8     &kp N9    &kp PT_GRAVE  &kp PT_TILDE
+&kp ESC    &kp Q   &kp W     &kp F     &kp P      &kp G                               &kp J      &kp L      &kp U      &kp Y     &kp PT_C_CEDILHA      &kp BSPC
 &kp TAB    &kp A   &kp R     &kp S     &kp T      &kp D                               &kp H      &kp N      &kp E      &kp I     &kp O      &kp BACKSPACE
-&kp LSHFT  &kp Z   &kp X     &kp C     &kp V      &kp B      &kp C_MUTE    &none      &kp K      &kp M      &kp COMMA  &kp DOT   &kp BR_SLASH   &kp RSHFT
+&kp LSHFT  &kp Z   &kp X     &kp C     &kp V      &kp B      &kp C_MUTE    &none      &kp K      &kp M      &kp COMMA  &kp DOT   &kp PT_SLASH   &kp RSHFT
                    &kp LGUI  &kp LALT  &kp LCTRL  &mo LOWER  &kp RET       &kp SPACE  &mo RAISE  &kp RCTRL  &kp RALT   &kp RGUI
             >;
 
@@ -66,7 +66,7 @@
 
             bindings = <
 &kp F1     &kp F2     &kp F3    &kp F4    &kp F5        &kp F6                       &kp F7     &kp F8  &kp F9  &kp F10  &kp F11   &kp F12
-&kp GRAVE  &kp N1     &kp N2    &kp N3    &kp N4        &kp N5                       &kp MINUS  &kp N7  &kp N8  &kp N9   &kp N0    &kp F12
+&kp GRAVE  &kp N1     &kp N2    &kp N3    &kp N4        &kp N5                       &kp PT_MINUS  &kp N7  &kp N8  &kp N9   &kp N0    &kp F12
 &trans     &kp EXCL   &kp AT    &kp HASH  &kp DLLR      &kp PRCNT                    &kp PLUS   &kp N4  &kp N5  &kp N6   &kp RPAR  &kp PIPE
 &trans     &kp EQUAL  &kp LBKT  &kp RBKT  &kp LS(LBRC)  &kp RBRC   &trans    &trans  &kp LBKT   &kp N1  &kp N2  &kp N3   &kp BSLH  &trans
                       &trans    &trans    &trans        &trans     &trans    &trans  &trans     &kp N0  &kp N0  &trans
@@ -87,7 +87,7 @@
 
             bindings = <
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &bt BT_NXT  &trans    &trans    &trans     &trans   &bl BL_ON
-&trans      &kp INS       &kp PSCRN     &kp K_CMENU   &trans        &trans                          &kp PG_UP   &trans    &kp UP    &trans     &kp N0   &rgb_ug RGB_TOG
+&trans      &kp INS       &kp PSCRN     &kp K_CMENU   &trans        &trans                          &kp PT_MINUS   &trans    &kp UP    &trans     &kp N0   &rgb_ug RGB_TOG
 &trans      &kp LALT      &kp LCTRL     &kp LSHFT     &trans        &kp CLCK                        &kp PG_DN   &kp LEFT  &kp DOWN  &kp RIGHT  &kp DEL  &kp BSPC
 &trans      &kp K_UNDO    &kp K_CUT     &kp K_COPY    &kp K_PASTE   &trans        &trans    &trans  &trans      &trans    &trans    &trans     &trans   &trans
                           &trans        &trans        &trans        &trans        &trans    &trans  &trans      &trans    &trans    &trans
