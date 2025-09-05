@@ -4,6 +4,7 @@
  * SPDX-License-Identifier: MIT
  */
 
+#include <locale/keys_pt_br.h>   /* <- cabeçalho dos aliases BR_* */
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/bt.h>
@@ -42,10 +43,10 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp GRAVE  &kp N1  &kp N2    &kp N3    &kp N4     &kp N5                              &kp N6     &kp N7     &kp N8     &kp N9    &kp GRAVE  &kp GRAVE
-&kp ESC    &kp Q   &kp W     &kp F     &kp P      &kp G                               &kp J      &kp L      &kp U      &kp Y     &kp Ç      &kp BSPC
+&kp GRAVE  &kp N1  &kp N2    &kp N3    &kp N4     &kp N5                              &kp N6     &kp N7     &kp N8     &kp N9    &kp BR_GRAVE  &kp BR_TILDE
+&kp ESC    &kp Q   &kp W     &kp F     &kp P      &kp G                               &kp J      &kp L      &kp U      &kp Y     &kp BR_SEMICOLON      &kp BSPC
 &kp TAB    &kp A   &kp R     &kp S     &kp T      &kp D                               &kp H      &kp N      &kp E      &kp I     &kp O      &kp BACKSPACE
-&kp LSHFT  &kp Z   &kp X     &kp C     &kp V      &kp B      &kp C_MUTE    &none      &kp K      &kp M      &kp COMMA  &kp DOT   &kp FSLH   &kp RSHFT
+&kp LSHFT  &kp Z   &kp X     &kp C     &kp V      &kp B      &kp C_MUTE    &none      &kp K      &kp M      &kp COMMA  &kp DOT   &kp BR_SLASH   &kp RSHFT
                    &kp LGUI  &kp LALT  &kp LCTRL  &mo LOWER  &kp RET       &kp SPACE  &mo RAISE  &kp RCTRL  &kp RALT   &kp RGUI
             >;
 
