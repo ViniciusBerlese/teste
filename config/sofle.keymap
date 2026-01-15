@@ -44,7 +44,7 @@
 
             bindings = <
 &kp PT_SQT  &kp N1  &kp N2    &kp N3    &kp N4     &kp N5                              &kp N6     &kp N7     &kp N8     &kp N9        &kp BACKSPACE     &kp BACKSPACE
-&kp ESC     &kp Q   &kp W     &kp E     &kp R      &kp T                               &kp Y      &kp U      &kp I      &kp O         &kp PT_P          &kp PT_ACUTE
+&kp ESC     &kp Q   &kp W     &kp E     &kp R      &kp T                               &kp Y      &kp U      &kp I      &kp O         &kp P             &kp PT_ACUTE
 &kp TAB     &kp A   &kp S     &kp D     &kp F      &kp G                               &kp H      &kp J      &kp K      &kp PT_L      &kp PT_C_CEDILLA  &kp PT_TILDE
 &kp LSHFT   &kp Z   &kp X     &kp C     &kp V      &kp B      &kp C_MUTE    &none      &kp K      &kp M      &kp COMMA  &kp DOT       &kp SEMI          &kp FSLH
                     &kp LGUI  &kp LALT  &kp LCTRL  &mo LOWER  &kp RET       &kp SPACE  &mo RAISE  &kp RCTRL  &kp RALT   &kp PT_EQUAL
